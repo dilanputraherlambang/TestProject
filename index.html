@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Absensi Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="attendance-container">
+        <h1>Absensi Siswa</h1>
+        <p>Silakan masukkan ID Siswa Anda untuk mencatat kehadiran.</p>
+        
+        <form id="attendance-form">
+            <label for="student-id">ID Siswa:</label>
+            <input type="text" id="student-id" placeholder="Contoh: 12345" required>
+            <button type="submit">Catat Kehadiran</button>
+        </form>
+
+        <div id="message-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
